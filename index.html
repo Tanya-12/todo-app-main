@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Practice #2 | Todo app</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <script src="script/script.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="black">
+<div class="wrapper">
+  <div class="todo">
+    <div class="header-todo">
+      <h1>T O D O</h1>
+      <button ><img src="images/icon-sun.svg" id="back"></button>
+    </div>
+    <div class="new-todo">
+      <input type="text" placeholder="Create a new todo...">
+    </div>
+    <div class="created-todo">
+      <ul class="list-todo">
+      </ul>
+    </div>
+    <div class="info-wrapper">
+        <span class="remainder-info">0 tasks left</span>
+        <ul class="filter-list">
+            <li class="filter-list-item"><button data-parameter="all" class="filter-button">All</button></li>
+            <li class="filter-list-item"><button data-parameter="active" class="filter-button">Active</button></li>
+            <li class="filter-list-item"><button data-parameter="completed" class="filter-button">Completed</button></li>
+        </ul>
+        <button class="filter-button clear-btn">Clear completed</button>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
